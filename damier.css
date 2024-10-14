@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.plateau {
+    display: grid;
+    grid-template-columns: repeat(8, 60px);
+    grid-template-rows: repeat(8, 60px);
+    border: 5px inset blue;
+}
+
+.casenoir{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caseblanche{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pionBlanc{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #fff;
+}
+.pionNoir{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #000000;
+}
